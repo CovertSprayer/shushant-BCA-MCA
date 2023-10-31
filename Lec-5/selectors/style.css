@@ -1,0 +1,33 @@
+/* ----------------- pseudo classes */
+ul li:first-child{
+    color: red;
+}
+
+ul li:last-child{
+    color: green;
+}
+
+ul li:nth-child(4){
+    color: brown;
+}
+
+ul li:nth-child(2n){
+    background-color: gray;
+}
+
+ul li:nth-child(2n+1){
+    background-color: rgb(192, 192, 192);
+}
+
+/* --------------- pseudo elements */
+li::before{
+    content: '😀';
+}
+
+li::after{
+    content: '😎';
+}
+
+p::first-letter{
+    font-size: 60px;
+}

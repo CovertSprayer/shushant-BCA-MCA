@@ -1,0 +1,35 @@
+/* ------------------ element selector */
+
+h1{
+    color: red;
+    font-size: 10px;
+}
+
+p{
+    color: aqua;
+}
+
+/* ------------------- id selector */
+#heading-1{
+    color: yellow;
+}
+
+/* ----------- class selector */
+.heading{
+    border: 2px solid red;
+    color: green;
+}
+
+/* ------------ attribute selector */
+a[href='https://www.google.com']{
+    border: 2px solid black;
+}
+
+/* ------------ universal selector */
+
+*{
+    /* display: none; */
+    /* border: 2px solid green; */
+    padding: 0;
+    margin: 0;
+}

@@ -1,0 +1,13 @@
+div{
+    border: 2px solid black;
+    height: 100px;
+    width: 600px;
+    /* display: inline; */
+}
+
+span{
+    border: 2px solid black;
+    height: 100px;
+    width: 300px;
+    display: inline-block
+}

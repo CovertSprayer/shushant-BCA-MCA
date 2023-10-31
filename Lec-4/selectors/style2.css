@@ -1,0 +1,45 @@
+/* span{
+    color: red;
+} */
+
+div p span{
+    color: red;
+}
+
+/* -------- child combinator */
+/* ul>li{
+    color:  red;
+} */
+
+/* ------------- immediate sibling */
+/* li+li{
+    color: red;
+} */
+
+/* div+li{
+    color: red;
+} */
+
+/* ------------- general sibling */
+
+li~li{
+    color: red;
+}
+
+a:link{
+    color: red;
+}
+
+a:visited{
+    color: blue;
+}
+
+a:active{
+    color: green;
+}
+
+a:hover{
+    color: orange;
+    border: 2px solid pink;
+    background-color: black;
+}

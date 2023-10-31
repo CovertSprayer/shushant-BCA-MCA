@@ -1,0 +1,51 @@
+
+.parent{
+    border: 2px solid black;
+    margin: 80px 20px;
+    position: relative;
+}
+
+.parent div{
+    border: 2px solid red;
+    margin: 5px;
+}
+
+.child-3{
+    background-color: yellow;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    /* right: ; */
+    /* bottom: ; */
+    z-index: 9;
+}
+
+.child-5{
+    background-color: orange;
+    position: absolute;
+    top: 50px;
+    left: 40px;
+}
+
+.child-1{
+    position: fixed;
+    bottom: 0px;
+    right: 0;
+    background-color: lightcoral;
+    width: 200px;
+    height: 200px;
+    z-index: 10;
+}
+
+/* .child-6{
+    background-color: aqua;
+    position: sticky;
+    top: 50px;
+} */
+
+.temp{
+    background-color: aquamarine;
+    position: sticky;
+    top: 100px;
+}
+
