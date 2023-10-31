@@ -1,0 +1,23 @@
+html{
+    font-size: 10px;
+}
+
+.container{
+    background-color: teal;
+    border: 2px solid black;
+    height: 50vh;
+    width: 50vw;
+    color: white;
+    font-size: 2rem;
+}
+
+.child{
+    background-color: yellow;
+    height: 30%;
+    width: 50%;
+}
+
+
+
+
+

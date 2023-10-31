@@ -1,0 +1,21 @@
+.container{
+    width: 60Vw;
+    border: 2px solid black;
+    margin: 0 auto;
+    background-color: orange;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 900px){
+    .container{
+        width: 90vw;
+        background-color: aqua;
+    }
+}
+
+@media (max-width: 500px){
+    .container{
+        width: 100vw;
+        font-size: 1rem;
+    }
+}
